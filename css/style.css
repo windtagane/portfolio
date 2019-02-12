@@ -22,6 +22,12 @@ a:hover {
 .external-link {
   text-decoration: underline;
 }
+
+h2,
+h3 {
+	margin-bottom: 5rem;
+	text-transform: uppercase;
+}
 /*NAVBAR*/
 
 header {
@@ -43,6 +49,7 @@ header {
 	margin-left: 40px;
 	border-top: 1px white;
 	border-bottom: 1px white;
+	text-transform: uppercase;
 }
 
 .nav-item a:hover {
@@ -52,6 +59,7 @@ header {
 
 /*ACCEUIL*/
 
+.acceuil{
 	margin-top: 8rem;
 }
 
@@ -70,15 +78,58 @@ i {
     font-size: calc(36px + (54 - 36) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.R-raid,
+.A-raid,
+.I-raid,
+.D-raid {
+	font-size: 42px;
+	letter-spacing: 5px;
+}
+
 .raid {
   font-size: 24px;
+  text-transform: uppercase;
 }
 .raid p:nth-of-type(2) {
   font-size: 18px;
+  text-transform: none;
+
 }
 
+/* PROJETS */
+
+.portfolio {
+	background-color: #E3E3E3;
+	color:#383838;
+	width: 100%;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+
+}
+
+/* CONTACT */
+
+.contact {
+	padding-top: 5rem;
+}
+
+/* FOOTER */
+
+ul {
+	list-style: none;
+}
+
+ 
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 600px)  {
+   /* ACCEUIL */
   .raid {
     margin-bottom: 5rem;
   }
+
+  /* PORTFOLIO */
+  img {
+  	margin-bottom: 1rem;
+  }
+} 
