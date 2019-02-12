@@ -52,9 +52,6 @@ header {
 
 /*ACCEUIL*/
 
-.acceuil,
-.projects,
-.contact{
 	margin-top: 8rem;
 }
 
@@ -81,9 +78,7 @@ i {
 }
 
 
-/*Media Queries*/
 @media screen and (max-width: 600px)  {
   .raid {
     margin-bottom: 5rem;
   }
-}
