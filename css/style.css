@@ -74,6 +74,12 @@ hr {
 	margin-bottom: 3rem; 
 }
 
+  /*DESCRIPTION PERSO*/
+
+.acceuil img {
+  float: right;
+}
+
 i {
     font-size: calc(36px + (54 - 36) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -111,14 +117,20 @@ i {
 
 .contact {
 	padding-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* FOOTER */
 
 ul {
 	list-style: none;
+  padding: 0px;
+  letter-spacing: 10px; 
 }
 
+ul li a {
+
+}
  
 /* MEDIA QUERIES */
 
