@@ -102,34 +102,55 @@ i {
 
 }
 
-/* PROJETS */
+/* PORTFOLIO */
 
 .portfolio {
 	background-color: #E3E3E3;
 	color:#383838;
 	width: 100%;
-	padding-top: 5rem;
-	padding-bottom: 2rem;
+	padding: 5rem;
 
+}
+
+.portfolio hr {
+	background-color: #383838;
 }
 
 /* CONTACT */
 
 .contact {
-	padding-top: 5rem;
+	padding: 5rem;
   margin-bottom: 2rem;
 }
 
 /* FOOTER */
 
+footer {
+	background-color: #E3E3E3;
+	padding-top: 2rem;
+
+}
+
+footer p {
+	color: #383838;
+}
+
 ul {
 	list-style: none;
-  padding: 0px;
-  letter-spacing: 10px; 
+  	padding: 0px;
+  	letter-spacing: 10px; 
 }
 
 ul li a {
+	color: #383838;
+}
 
+ul li a:hover {
+	color: #0076DD;
+}
+
+.signature {
+	text-transform: uppercase;
 }
  
 /* MEDIA QUERIES */
