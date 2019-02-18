@@ -128,6 +128,7 @@ i {
 footer {
 	background-color: #E3E3E3;
 	padding-top: 2rem;
+	position: relative;
 
 }
 
@@ -152,16 +153,18 @@ ul li a:hover {
 .signature {
 	text-transform: uppercase;
 }
- 
+
 /* MEDIA QUERIES */
 
+	/*600px*/
 @media screen and (max-width: 600px)  {
-   /* ACCEUIL */
+   		
+   		/* ACCEUIL */
   .raid {
     margin-bottom: 5rem;
   }
 
-  /* PORTFOLIO */
+  		/* PORTFOLIO */
   img {
   	margin-bottom: 1rem;
   }

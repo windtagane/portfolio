@@ -13,11 +13,13 @@ $(document).ready(()=>{
         if (target.length) {
           $('html, body').animate({
             scrollTop: target.offset().top
-          }, 10000);
+          }, 0);
           return false;
         }
       }
     });
   });
-	console.log('JS Loaded');
+  console.log('JS Loaded');
 });
+
+
