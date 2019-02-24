@@ -1,0 +1,19 @@
+#get-involved > * {
+	background-color: grey;
+}
+
+h1:nth-child(n+2), h2, h3, h4, h5 {
+	text-transform: uppercase;
+	color: #F74C3C;
+}
+
+.goal {
+	margin-bottom: 50px;
+}
+.goal, span, .lead {
+	color: white;
+}
+
+span {
+	font-weight: bold;
+}

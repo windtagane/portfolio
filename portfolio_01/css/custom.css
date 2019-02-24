@@ -1,0 +1,77 @@
+/*  GENERAL  */
+h1:nth-child(n+2), h2, h3, h4, h5 {
+    text-transform: uppercase;
+    color: #F74C3C;
+}
+span{
+    font-weight: bold;
+}
+/*   NAVBAR  */
+.navbar{
+    background-color:black;
+}
+.collapse{
+    padding-left: 50%;
+}
+#navbar .text-links{
+    text-align: left;
+}
+/*   HEADER  */
+.container{
+    text-align: center;
+}
+#mainContainer{
+        background-image: url("../images/hero-image.jpg");
+}
+.d-inline-block{
+    margin-left: 100%;
+}
+.goal {
+    margin-bottom: 50px;
+}
+.goal, span, .lead {
+    color: white;
+}
+/*   WHO WE ARE  */
+#get-involved > * {
+    background-color: #f2f2f2;
+}
+.card{
+    background-color:  #f2f2f2;
+    border:none;
+}
+.btn-outline-danger{
+    color: #F74C3C;
+}
+.lead{
+    color: black;
+}
+.lead span{
+    color: #F74C3C;
+}
+.academy-icon{
+    display: center;
+}
+hr{
+    width: 10%;
+    border-color: #F74C3C;
+}
+.card-footer{
+    background-color: #f2f2f2;
+}
+/*   FOOTER  */
+
+.misere {
+    background-color: #F74C3C;
+}
+.footer {
+    background-color: #F74C3C;
+    color: #F74C3C;
+    height: 200px;
+    width: auto;
+    padding-top: 130px;
+}
+footer .jumbotron{
+    background-color: #F74C3C;
+}
+/* ETIENNE */

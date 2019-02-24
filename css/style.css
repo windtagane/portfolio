@@ -20,7 +20,7 @@ a:hover {
 }
 
 .external-link {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 h2,
@@ -74,14 +74,14 @@ hr {
 	margin-bottom: 3rem; 
 }
 
-  /*DESCRIPTION PERSO*/
+/*DESCRIPTION PERSO*/
 
 .acceuil img {
-  float: right;
+	float: right;
 }
 
 i {
-    font-size: calc(36px + (54 - 36) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(36px + (54 - 36) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .R-raid,
@@ -93,12 +93,12 @@ i {
 }
 
 .raid {
-  font-size: 24px;
-  text-transform: uppercase;
+	font-size: 24px;
+	text-transform: uppercase;
 }
 .raid p:nth-of-type(2) {
-  font-size: 18px;
-  text-transform: none;
+	font-size: 18px;
+	text-transform: none;
 
 }
 
@@ -120,7 +120,7 @@ i {
 
 .contact {
 	padding: 5rem;
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 /* FOOTER */
@@ -138,8 +138,8 @@ footer p {
 
 ul {
 	list-style: none;
-  	padding: 0px;
-  	letter-spacing: 10px; 
+	padding: 0px;
+	letter-spacing: 10px; 
 }
 
 ul li a {
@@ -156,16 +156,39 @@ ul li a:hover {
 
 /* MEDIA QUERIES */
 
-	/*600px*/
+/*600px*/
 @media screen and (max-width: 600px)  {
-   		
-   		/* ACCEUIL */
-  .raid {
-    margin-bottom: 5rem;
-  }
 
-  		/* PORTFOLIO */
-  img {
-  	margin-bottom: 1rem;
-  }
+	/* ACCEUIL */
+	.raid {
+		margin-bottom: 5rem;
+	}
+
+	/* PORTFOLIO */
+	
+	.card-portfolio {
+		margin-bottom: 3rem;
+	}
+
+	.card-portfolio:last-of-type {
+		margin-bottom: 0rem;
+	}
+
+	img {
+		margin-bottom: 1rem;
+	}
+
+	/*TECHNOLOGIES*/
+
+	.technologies i {
+		font-size: 75px;
+	}
+
+	.picto-techno {
+		margin-bottom: 2rem;
+	}
+
+	.picto-techno:last-of-type {
+		margin-bottom: 0rem;
+	}
 } 
